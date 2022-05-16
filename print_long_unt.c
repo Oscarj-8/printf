@@ -16,7 +16,7 @@ int prinlunt(va_list arguments, char *buf, unsigned int ibuf)
 	while (int_temp > 9)
 	{
 		div *= 10;
-		string_temp /= 10;
+		int_temp /= 10;
 	}
 	for (i = 0; div > 0; div /= 10, i++)
 	{
