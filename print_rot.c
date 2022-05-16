@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_rot - writes the str in ROT13
  * @arguments: input string
