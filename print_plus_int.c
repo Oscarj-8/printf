@@ -25,7 +25,7 @@ int prinpint(va_list arguments, char *buf, unsigned int ibuf)
 	}
 	int_temp = int_in;
 	div = 1;
-	while (int_temp > 9)
+	do while (int_temp > 9)
 	{
 		div *= 10;
 		int_temp /= 10;
