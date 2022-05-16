@@ -32,7 +32,7 @@ int print_usr(va_list arguments, char *buf, unsigned int ibuf)
 		}
 		else
 			ibuf = handl_buf(buf, str[i], ibuf);
-	}
+	}}
 	free(binary);
 	free(hexadecimal);
 	return (i + sum);
