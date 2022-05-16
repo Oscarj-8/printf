@@ -18,7 +18,7 @@ int print_unt(va_list arguments, char *buf, unsigned int ibuf)
 		div *= 10;
 		int_temp /= 10;
 	}
-	for (i = 0; muv > 0; div /= 10, i++)
+	for (i = 0; div > 0; div /= 10, i++)
 	{
 		ibuf = handl_buf(buf, ((int_in / div) % 10) + '0', ibuf);
 	}
