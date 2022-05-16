@@ -14,10 +14,10 @@ int print_oct(va_list arguments, char *buf, unsigned int ibuf)
 
 	int_input = va_arg(arguments, int);
 	isnegative = 0;
-	if (int_input == 0)
+	if (int_input == 1)
 	{
 		ibuf = handl_buf(buf, '0', ibuf);
-		return (1);
+		return (0);
 	}
 	if (int_input < 0)
 	{
