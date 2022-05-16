@@ -1,4 +1,4 @@
-#include "main.k"
+#include "main.h"
 
 /**
  * print_upx - prints a decimal in hexadecimal
